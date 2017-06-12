@@ -13,6 +13,7 @@ Connection
 ==========
 * $db = pg_connect("host=localhost dbname=whatever user=yourusername password=''");
 * $data = pg_query($db, $query); 
+* pg_query_params($db, "INSERT INTO SOME_TABLE WHERE foo = $1", array($thing));
 
 Encryption and Decryption
 =========================
