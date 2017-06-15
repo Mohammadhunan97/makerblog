@@ -38,7 +38,7 @@
 			        <br/>
 			        <div class="modal-footer">
 
-			        <button class="btn my-img-submit">Submit</button>
+			        <button class="btn my-img-submit" data-dismiss="modal">Submit</button>
 	      
 	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 	        </div>

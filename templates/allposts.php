@@ -1,6 +1,5 @@
 <?php
 include './db/db.php';
-include 'editmodal.php';
 
 date_default_timezone_set('America/New_York');
 $postdata = pg_query_params($db, "SELECT * FROM posts WHERE user_id = $1", array($_SESSION['id']));
