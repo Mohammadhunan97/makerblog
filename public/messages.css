@@ -1,0 +1,16 @@
+.user-exist-error{
+	background:	#F08080;
+	border: 3px solid #e74c3c;
+	border-radius: 5px;
+	color: white;
+	display: inline-block;
+	margin-left: 30vw;	
+}
+
+.user-created-success,.user-login-success{ 
+	background:	#2ecc71;
+	border: 3px solid #16a085;
+	border-radius: 5px;
+	display: inline-block;
+	margin-left: 30vw;	
+}

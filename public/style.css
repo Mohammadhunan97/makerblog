@@ -1,0 +1,261 @@
+body{
+	margin: 0;
+	background: white;
+	overflow-x: hidden;
+}
+.logo{
+	font-family: 'Nova Flat', cursive;
+	color: #e74c3c;
+	font-size: 4.1em;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.build{
+	font-family: 'Overpass', sans-serif;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.loginform,.signupform{
+	width: 100vw;
+	margin: 20px 20px 20px 20px;
+	margin-right: 100px;
+    display: inline-block;
+    padding: 0px 5px 5px 0px;
+    font-family: 'Overpass', sans-serif;
+    overflow: hidden;
+}
+.loginuser,.loginpass{
+	width: 95%;
+	padding: 5px 5px 5px 5px;
+	font-size: 1.1em;
+}
+.loginlabel{
+	font-size: 1.1em;
+	font-weight: 800px;
+}
+.cover{
+	width: 100vw;
+	height: 68vh;
+	background:#34495e;
+	background-size: 100% 100%;
+}
+.background{
+	width: 100vw;
+	height: 68vh;
+	background: #34495e;
+	background-size: 100% 100%;
+
+}
+.loginsubmit{
+	margin-top: 5px;
+	padding: 5px;
+	background: #e74c3c;
+	color: white;
+	border: solid 1px #e74c3c;
+	border-radius: 10px;
+	font-size: 1.1em;
+	margin-left: 90%;
+}
+.loginsubmit:hover{
+	background:#34495e;
+	border: #34495e;
+}
+.coffeevideo,.coffeetext{
+	display: inline-block;
+}
+.coffeevideo{
+	float: left;
+    width: 40%;
+    margin-right: 2%;
+    margin-left: 5%;
+}
+.coffeetext{
+	float: right;
+	 width: 30%;
+	 font-size: 1.1em;
+	 font-family: 'Overpass', sans-serif;
+	 margin-right: 5%;
+
+}
+.coffeevid{
+	max-width: 62.5em;
+	margin: 3em auto 0;
+}
+.youtubevid{
+	width: 640px;
+	height:360px;
+}
+.loginsignup{
+	z-index: 2;
+}
+.row{
+	margin-top: 300px;
+	padding-top: 100px;
+}
+.intro-header {
+  /*  background: url(../btheme/img/home-bg.jpg);*/
+    max-height: 100vh;
+    /* background-position: 50vw 50vh; */
+    background-size: 101% 101%;
+}
+.row {
+    margin-top: -80px;
+    padding-top: 100px;
+}
+.user-name,.bg-Image{
+	text-decoration: underline;
+	cursor:pointer;
+	display: inline;
+	height: 300px;
+	width: 300px;
+}
+.log-out,.bg-submit{
+   background: #3498db;
+   color: white;
+   border-radius: 3px;
+   border: 2px solid #3498db;
+   padding: 5px;
+}
+.user-session-logout{
+	position: absolute;
+	right: 30px;
+	top: 50px;
+	font-size: 0.7em;
+	font-weight: 900;
+	color: black;
+}
+.edit-user-description,.description-submit,.new-user-description{
+	color: black;
+}
+.current-users-descr{
+	display: inline-block;
+}
+.user-bgImage{
+	position: absolute;
+	background: transparent;
+	color: black;
+	font-size: 0.7em;
+	font-weight: 900;
+	top: 50px;
+	left: 30px;
+}
+.bgchange{
+	background: transparent;
+	display: inline-block;
+	height: 100px;
+	width: 300px;
+}
+
+.btn-lg,.btn-lg:hover{
+	background: #e74c3c;
+	border: #e74c3c;
+}
+.myimg {
+    margin: 0px 20px 0px 20px;
+    background: #e74c3c;
+    border: 2px solid #e74c3c;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.api-img,.edit-api-img{
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	float: left;	
+	z-index: 2;	
+}
+.btn-lg{
+	margin-top: 80px;
+}
+@media screen and (max-width: 650px) {
+    .loginform,.signupform{
+        left: 5vw;
+    }
+    .coffeevideo,.coffeetext{
+	display: block;
+	float: none;
+	margin: 10px;
+	width: 40vw;
+	}
+	.coffeetext{
+		width: 80vw;
+	}
+	.youtubevid{
+		width: 80vw;
+	}
+	.loginsubmit{
+	margin: 0px;	
+	padding: 5px;
+	font-size: initial;
+	}
+	.myimg {
+	font-size: 0.7em;
+	padding: 0px;
+	display: block;
+	}
+}
+.post-hr{
+	width: 50vw;
+}
+.edit-post,.delete-post{
+	width: 80px;
+	margin: 0px 10px 0px 10px;
+	border-radius: 5px;
+	color: white;
+}
+.edit-post{
+	background: #3498db;
+	border: 2px solid #3498db;
+}
+.delete-post{
+	background: #e74c3c;
+	border: 2px solid #e74c3c;
+	padding-right: 70px;
+}
+.search-for-image{
+    width: 200px;
+    height: 80px;
+    margin-top: -50px;
+    position: relative;
+    top: 15px;
+}
+.edit-yourown-image,.use-yourown-image{
+    padding: 0;
+    width: 200px;
+    height: 80px;
+}
+.search-for-img{
+	width: 200px;
+    height: 80px;
+    margin-top: -50px;
+    position: relative;
+    top: 15px;
+
+}
+.use-yourown-image{
+
+}
+@media screen and (max-width: 400px) {
+	.bg-Image {
+    margin-right: -40px;
+    margin-top: 0px;
+}
+	.user-name{
+		position: absolute;
+		top:10px;
+		right:-131px;
+	}
+
+.btn-lg {
+    margin-right: 0px;
+    margin-top: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+}
