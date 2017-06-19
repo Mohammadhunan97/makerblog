@@ -5,7 +5,7 @@ $login = "
 		<h3 class='loginhead'>Login to your blog's admin panel</h3>
 		<p class='loginlabel'>Username:</p><input class='loginuser' placeholder='username' name='username'>
 		<br/>
-		<p class='loginlabel'>Password:</p><input class='loginpass' placeholder='password' name='password'>
+		<p class='loginlabel'>Password:</p><input type='password'  class='loginpass' placeholder='password' name='password'>
 		<br/>
 		<input class='loginsubmit' type='submit'>
 		<br />
@@ -19,7 +19,7 @@ $signup ="<form class='signupform' action='users/signup.php' method='post'>
 			<h3 class='loginhead'>Signup for a new Blog</h3>
 			<p class='loginlabel'>Pick a Username:</p><input class='loginuser' placeholder='username' name='username'>
 			<br/>
-			<p class='loginlabel'>Choose a secure Password:</p><input class='loginpass' placeholder='password' name='password'>
+			<p class='loginlabel'>Choose a secure Password:</p><input type='password' class='loginpass' placeholder='password' name='password'>
 			<br/>
 			<input class='loginsubmit' type='submit'>
 			<br />

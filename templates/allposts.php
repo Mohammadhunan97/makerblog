@@ -38,7 +38,7 @@ echo "<div class='container'>
             <div class='modal-header'>
               <button type='button' class='close' data-dismiss='modal'>&times;</button>
 
-              
+               
                       <h4 class='modal-title'> Title: <input onchange='editTitle(this)' class='form-control edit-title-write' placeholder='Write a post title' /></h4>
                     </div>
                     <div class='modal-body'>
