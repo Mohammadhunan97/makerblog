@@ -1,0 +1,10 @@
+{
+    "name": "minimoe/makerblog",
+    "authors": [
+        {
+            "name": "Mohammad Chughtai",
+            "email": "mohammadhunan@gmail.com"
+        }
+    ],
+    "require": {}
+}
